@@ -15,6 +15,8 @@ class CrearCuentaViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        txtContraseña.isSecureTextEntry = true
     }
     
     @IBAction func btnReturn(_ sender: Any) {

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76112E8A273CD65700B49B45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76112E89273CD65700B49B45 /* GoogleService-Info.plist */; };
 		C71993E308A1771E967A64FD /* Pods_GoPlace_Client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C812E71553A4C92C66958CD7 /* Pods_GoPlace_Client.framework */; };
 		CE0F0BA127206E0900E7EE60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F0BA027206E0900E7EE60 /* AppDelegate.swift */; };
 		CE0F0BA327206E0900E7EE60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F0BA227206E0900E7EE60 /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		1C13F2640FA5355921C09622 /* Pods-GoPlace-Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoPlace-Client.release.xcconfig"; path = "Target Support Files/Pods-GoPlace-Client/Pods-GoPlace-Client.release.xcconfig"; sourceTree = "<group>"; };
+		76112E89273CD65700B49B45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A7FA53FBB078B097E769D530 /* Pods-GoPlace-Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoPlace-Client.debug.xcconfig"; path = "Target Support Files/Pods-GoPlace-Client/Pods-GoPlace-Client.debug.xcconfig"; sourceTree = "<group>"; };
 		C812E71553A4C92C66958CD7 /* Pods_GoPlace_Client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoPlace_Client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0F0B9D27206E0900E7EE60 /* GoPlace-Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoPlace-Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 				CE0F0BA927206E0C00E7EE60 /* Assets.xcassets */,
 				CE0F0BAB27206E0C00E7EE60 /* LaunchScreen.storyboard */,
 				CE0F0BAE27206E0C00E7EE60 /* Info.plist */,
+				76112E89273CD65700B49B45 /* GoogleService-Info.plist */,
 				CE19B504273A2DC3008F9B82 /* CrearCuentaViewController.swift */,
 				CE19B506273A2F0F008F9B82 /* RecuperarCuentaViewController.swift */,
 			);
@@ -94,7 +97,6 @@
 				A7FA53FBB078B097E769D530 /* Pods-GoPlace-Client.debug.xcconfig */,
 				1C13F2640FA5355921C09622 /* Pods-GoPlace-Client.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0F0BAD27206E0C00E7EE60 /* LaunchScreen.storyboard in Resources */,
+				76112E8A273CD65700B49B45 /* GoogleService-Info.plist in Resources */,
 				CE0F0BAA27206E0C00E7EE60 /* Assets.xcassets in Resources */,
 				CE0F0BA827206E0900E7EE60 /* Main.storyboard in Resources */,
 			);

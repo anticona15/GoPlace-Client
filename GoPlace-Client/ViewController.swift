@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        txtContra.isSecureTextEntry = true
     }
     
     @IBAction func btnLogin(_ sender: Any) {
