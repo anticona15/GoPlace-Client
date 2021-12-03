@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54B320D92742ED2C00E23EAA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B320D82742ED2C00E23EAA /* Extension.swift */; };
+		54B320DB2742F3D300E23EAA /* General.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B320DA2742F3D300E23EAA /* General.xcassets */; };
+		54B320DE275A752000E23EAA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B320DD275A752000E23EAA /* HomeViewController.swift */; };
+		54B320E1275A75AF00E23EAA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B320E0275A75AF00E23EAA /* Home.storyboard */; };
+		54B320E4275A79F500E23EAA /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B320E3275A79F500E23EAA /* Usuario.swift */; };
 		76112E8A273CD65700B49B45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76112E89273CD65700B49B45 /* GoogleService-Info.plist */; };
 		C71993E308A1771E967A64FD /* Pods_GoPlace_Client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C812E71553A4C92C66958CD7 /* Pods_GoPlace_Client.framework */; };
 		CE0F0BA127206E0900E7EE60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F0BA027206E0900E7EE60 /* AppDelegate.swift */; };
@@ -21,6 +26,11 @@
 
 /* Begin PBXFileReference section */
 		1C13F2640FA5355921C09622 /* Pods-GoPlace-Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoPlace-Client.release.xcconfig"; path = "Target Support Files/Pods-GoPlace-Client/Pods-GoPlace-Client.release.xcconfig"; sourceTree = "<group>"; };
+		54B320D82742ED2C00E23EAA /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		54B320DA2742F3D300E23EAA /* General.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = General.xcassets; sourceTree = "<group>"; };
+		54B320DD275A752000E23EAA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		54B320E0275A75AF00E23EAA /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		54B320E3275A79F500E23EAA /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		76112E89273CD65700B49B45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A7FA53FBB078B097E769D530 /* Pods-GoPlace-Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoPlace-Client.debug.xcconfig"; path = "Target Support Files/Pods-GoPlace-Client/Pods-GoPlace-Client.debug.xcconfig"; sourceTree = "<group>"; };
 		C812E71553A4C92C66958CD7 /* Pods_GoPlace_Client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoPlace_Client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +66,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		54B320DC275A750600E23EAA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				54B320DD275A752000E23EAA /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		54B320DF275A759700E23EAA /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+				54B320E0275A75AF00E23EAA /* Home.storyboard */,
+			);
+			path = Vistas;
+			sourceTree = "<group>";
+		};
+		54B320E2275A79DF00E23EAA /* Objetos */ = {
+			isa = PBXGroup;
+			children = (
+				54B320E3275A79F500E23EAA /* Usuario.swift */,
+			);
+			path = Objetos;
+			sourceTree = "<group>";
+		};
 		CE0F0B9427206E0900E7EE60 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +111,9 @@
 		CE0F0B9F27206E0900E7EE60 /* GoPlace-Client */ = {
 			isa = PBXGroup;
 			children = (
+				54B320E2275A79DF00E23EAA /* Objetos */,
+				54B320DF275A759700E23EAA /* Vistas */,
+				54B320DC275A750600E23EAA /* Home */,
 				CE0F0BA027206E0900E7EE60 /* AppDelegate.swift */,
 				CE0F0BA227206E0900E7EE60 /* SceneDelegate.swift */,
 				CE0F0BA427206E0900E7EE60 /* ViewController.swift */,
@@ -87,6 +124,8 @@
 				76112E89273CD65700B49B45 /* GoogleService-Info.plist */,
 				CE19B504273A2DC3008F9B82 /* CrearCuentaViewController.swift */,
 				CE19B506273A2F0F008F9B82 /* RecuperarCuentaViewController.swift */,
+				54B320D82742ED2C00E23EAA /* Extension.swift */,
+				54B320DA2742F3D300E23EAA /* General.xcassets */,
 			);
 			path = "GoPlace-Client";
 			sourceTree = "<group>";
@@ -159,8 +198,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B320DB2742F3D300E23EAA /* General.xcassets in Resources */,
 				CE0F0BAD27206E0C00E7EE60 /* LaunchScreen.storyboard in Resources */,
 				76112E8A273CD65700B49B45 /* GoogleService-Info.plist in Resources */,
+				54B320E1275A75AF00E23EAA /* Home.storyboard in Resources */,
 				CE0F0BAA27206E0C00E7EE60 /* Assets.xcassets in Resources */,
 				CE0F0BA827206E0900E7EE60 /* Main.storyboard in Resources */,
 			);
@@ -215,10 +256,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B320E4275A79F500E23EAA /* Usuario.swift in Sources */,
 				CE0F0BA527206E0900E7EE60 /* ViewController.swift in Sources */,
 				CE19B507273A2F0F008F9B82 /* RecuperarCuentaViewController.swift in Sources */,
 				CE0F0BA127206E0900E7EE60 /* AppDelegate.swift in Sources */,
+				54B320D92742ED2C00E23EAA /* Extension.swift in Sources */,
 				CE19B505273A2DC3008F9B82 /* CrearCuentaViewController.swift in Sources */,
+				54B320DE275A752000E23EAA /* HomeViewController.swift in Sources */,
 				CE0F0BA327206E0900E7EE60 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
